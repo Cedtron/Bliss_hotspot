@@ -1,0 +1,20 @@
+Uri: http://enochlee.com/css/style.css
+File Name: C:\Downloaded Web Sites\enochlee.com\css\style-1.css
+Content Type: text/css
+
+Uri: http://enochlee.com/img/password.svg
+File Name: C:\Downloaded Web Sites\enochlee.com\img\password.svg
+Content Type: image/svg+xml
+
+Uri: http://enochlee.com/img/user.svg
+File Name: C:\Downloaded Web Sites\enochlee.com\img\user.svg
+Content Type: image/svg+xml
+
+Uri: http://enochlee.com/login
+File Name: C:\Downloaded Web Sites\enochlee.com\login.html
+Content Type: text/html
+
+Uri: http://enochlee.com/md5.js
+File Name: C:\Downloaded Web Sites\enochlee.com\md5.js
+Content Type: application/x-javascript
+
