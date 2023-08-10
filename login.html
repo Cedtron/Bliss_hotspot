@@ -29,11 +29,11 @@
         <input type="hidden" name="popup" value="true">
     </form>
 
-    <script src="md5.js"></script>
+    <script src="/md5.js"></script>
     <script>
         function doLogin() {
             document.sendin.username.value = document.login.username.value;
-            document.sendin.password.value = hexMD5('\143' + document.login.password.value + '\007\030\160\230\335\245\371\226\225\202\117\062\253\323\231\262');
+            document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
             document.sendin.submit();
             return false;
         }
@@ -55,12 +55,12 @@
                     </p>
                     <label>
                         <img class="ico" src="img/user.svg" alt="#">
-                        <input name="username" class="" type="text" value="" placeholder="Enter User Name">
+                        <input name="username" type="text" placeholder="Username" />
                     </label>
 
                     <label>
                         <img class="ico" src="img/password.svg" alt="#">
-                        <input name="password" class="" type="password" placeholder="Enter Password">
+                        <input name="password" type="password" placeholder="Password" />
                     </label>
 
                     <input type="submit" class="prim" value="Connect">
@@ -77,7 +77,7 @@
           <h4 class="my-0 fw-normal"> 24hrs</h4>
         </div>
         <div class="card-body"><small class="fw-light">Ugx</small>
-          <h2 class="card-title pricing-card-title">1,000</h2>
+          <h2 class="card-title pricing-card-title">2,000</h2>
           <div class="blinking">
             <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
               <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
