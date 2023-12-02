@@ -12,11 +12,11 @@ a,body,div,form,html,img,input,label,p,span{margin:0;padding:0;border:0;font-fam
   
 .prim{background-color: #e04912!important;color:azure!important;}
 .green{background-color: #05ad05!important;color:azure!important;font-weight: bolder!important;}
-.blue{background-color: #0d0ddd!important;color:azure!important;font-weight: bolder!important;}
+.blue{background-color: #46c3f9!important;color:#000000!important;font-weight: bolder!important;}
 .pick{background-color: #ce396b!important;color:azure!important;font-weight: bolder!important;}
   .pick-head{background-color: azure!important;color:#ce396b!important;}
   .green-head{background-color: azure!important;color:#05ad05!important;}
-  .blue-head{background-color: azure!important;color:#0d0ddd!important;}
+  .blue-head{background-color: azure!important;color:#0282b9!important;font-weight:bolder;}
   .copy{color:azure;}
   .copy a{text-decoration: none;color:#e04912;font-weight: bold;}
   .text-prim{color:#e04912;}
